@@ -1,7 +1,7 @@
 === MP Customizer Backups ===
 Contributors: johnstonphilip, mintplugins
 Donate link: https://mintplugins.com/
-Tags: icons, tinyMCE
+Tags: theme mods, customizer, backups, backup
 Requires at least: 3.0.1
 Tested up to: 4.1
 Stable tag: 1.0.0
@@ -17,6 +17,8 @@ Feel free to play with your Theme Mods under "Appearance" > "Customizer" without
 Or, if you want to develop your customizer locally and then automatically set up those options to match on your live site, simply download a Customizer Backup and Upload it to your live site. You could even send your Customizer settings to your friends or customers.
 
 For Theme/Plugin Developers: This is also a way to create a "Theme within a Theme" - by allowing a single theme to have many different pre-set styles. For example, you could use an activation hook in a plugin to use a backup (in JSON format) and make plugins re-style a Theme. If your plugin does change the Customizer styles, you could also trigger an auto backup of the user's current settings so that you don't permanently erase any of the user's settings.
+
+This plugin is used in Theme Bundles released on https://mintplugins.com to allow for a plugin to re-use a theme for multiple designs.
 
 == Installation ==
 
