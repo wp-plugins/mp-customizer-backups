@@ -4,7 +4,7 @@ Donate link: https://mintplugins.com/
 Tags: theme mods, customizer, backups, backup
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,13 +37,16 @@ To generate a backup, go to "Appearance" > "Customizer Backups" and click "Gener
 
 To programmatically generate a backup of the current Customizer Settings (AKA: Theme Mods), use this code:
 
-<?php mp_backup_customizer( 'This backup was created because of XYZ' ); ?>
+mp_backup_customizer( 'This backup was created because of XYZ' );
 
 == Screenshots ==
 
 1. Customizer Backups screen.
 
 == Changelog ==
+
+= 1.0.1 = April 4, 2015
+* Made it so when you download a backup it auto downloads in a text file rather than just displaying the JSON on the screen.
 
 = 1.0.0 = April 1, 2015
 * Original release

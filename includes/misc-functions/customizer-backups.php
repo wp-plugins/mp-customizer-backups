@@ -492,8 +492,8 @@ function mp_download_customizer(){
 		$backup_timestamp = $_GET['mp_download_customizer'];
 		
 		//Convert this page to a text file
-		//header('Content-disposition: attachment; filename=customizer_backup_'. $backup_timestamp . '.txt');
-		//header('Content-type: text/plain');
+		header('Content-disposition: attachment; filename=customizer_backup_'. $backup_timestamp . '.txt');
+		header('Content-type: text/plain');
 		
 		//Put the contents of this backup into a text file and deliver it to the user
 		echo json_encode( $backups[$_GET['mp_download_customizer']]['theme_mods'] );
