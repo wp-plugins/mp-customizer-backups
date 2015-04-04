@@ -4,7 +4,7 @@ Donate link: https://mintplugins.com/
 Tags: theme mods, customizer, backups, backup
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,6 +44,9 @@ mp_backup_customizer( 'This backup was created because of XYZ' );
 1. Customizer Backups screen.
 
 == Changelog ==
+
+= 1.0.2 = April 4, 2015
+* Changed text on button from "Create Customizer Backup" to the more accurate "Create/View Customizer Backups".
 
 = 1.0.1 = April 4, 2015
 * Made it so when you download a backup it auto downloads in a text file rather than just displaying the JSON on the screen.

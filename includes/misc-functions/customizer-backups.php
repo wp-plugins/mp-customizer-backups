@@ -604,7 +604,7 @@ function mp_customizer_backups_button_in_customizer( $wp_customize ) {
     <script type="text/javascript">
 		jQuery(document).ready(function($){
 		
-			$( '#customize-info' ).append( '<div style="padding:10px;"><a href="<?php echo admin_url( 'themes.php?page=mp-customizer-backups'); ?>" class="button"><?php echo __( 'Create Customizer Backup', 'mp_customizer_backups' ); ?></a></div>' );
+			$( '#customize-info' ).append( '<div style="padding:10px;"><a href="<?php echo admin_url( 'themes.php?page=mp-customizer-backups'); ?>" class="button"><?php echo __( 'Create/View Customizer Backups', 'mp_customizer_backups' ); ?></a></div>' );
 			
 		});
     </script>

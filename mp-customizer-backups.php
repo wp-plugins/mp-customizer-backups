@@ -3,7 +3,7 @@
 Plugin Name: MP Customizer Backups
 Plugin URI: http://mintplugins.com
 Description: Backup the Theme Mods in your Customizer with either a click or by triggering a function.
-Version: 1.0.1
+Version: 1.0.2
 Author: Mint Plugins
 Author URI: http://mintplugins.com
 Text Domain: mp_customizer_backups
@@ -34,7 +34,7 @@ License: GPL2
 */
 // Plugin version
 if( !defined( 'MP_CUSTOMIZER_BACKUPS_VERSION' ) )
-	define( 'MP_CUSTOMIZER_BACKUPS_VERSION', '1.0.1' );
+	define( 'MP_CUSTOMIZER_BACKUPS_VERSION', '1.0.2' );
 
 // Plugin Folder URL
 if( !defined( 'MP_CUSTOMIZER_BACKUPS_PLUGIN_URL' ) )
